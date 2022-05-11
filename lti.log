@@ -1,0 +1,1086 @@
+2022-05-10 12:51:30,370 WARN  HikariPool$HouseKeeper:787 - [] HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=3d19h32m14s767ms270µs500ns).
+2022-05-10 13:26:10,765 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:26:10,778 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:26:11,121 INFO  DeferredLog:225 - [] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-10 13:26:11,122 INFO  DeferredLog:225 - [] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-10 13:26:13,873 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:26:13,877 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:26:14,020 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:26:14,031 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:26:14,045 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:26:14,063 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:26:14,081 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:26:14,092 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 196ms. Found 0 JPA repository interfaces.
+2022-05-10 13:26:14,173 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:26:14,175 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:26:14,267 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 90ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:26:17,131 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:26:17,182 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:26:17,183 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:26:17,429 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:26:17,430 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 6306 ms
+2022-05-10 13:26:17,571 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-05-10 13:26:18,666 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-05-10 13:26:18,703 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:4a94781a-288c-4844-a6a6-7f973e42cd82'
+2022-05-10 13:26:19,153 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:26:19,310 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:26:19,445 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.4.15.Final
+2022-05-10 13:26:19,810 INFO  JavaReflectionManager:49 - [] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-05-10 13:26:20,483 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:26:20,568 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:26:20,905 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2022-05-10 13:26:20,916 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7164700}
+2022-05-10 13:26:21,092 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:26:21,356 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:26:21,379 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:26:21,413 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2022-05-10 13:26:22,377 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:26:23,182 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:26:23,185 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:26:23,187 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:26:23,196 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:26:23,235 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:26:23,251 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:26:23,704 INFO  StartupInfoLogger:61 - [] Started App in 15.295 seconds (JVM running for 17.906)
+2022-05-10 13:28:46,864 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10 13:28:46,866 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-05-10 13:28:46,888 INFO  FrameworkServlet:547 - [] Completed initialization in 22 ms
+2022-05-10 13:30:57,047 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:30:57,054 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:30:57,055 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:30:57,064 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:30:57,344 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:30:57,345 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-05-10 13:30:57,357 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-05-10 13:30:57,997 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:30:57,998 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:30:58,764 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:30:58,765 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:30:58,784 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:30:58,787 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:30:58,791 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:30:58,796 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:30:58,800 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:30:58,801 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 36ms. Found 0 JPA repository interfaces.
+2022-05-10 13:30:58,817 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:30:58,819 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:30:58,859 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 39ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:30:59,165 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:30:59,167 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:30:59,167 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:30:59,264 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:30:59,265 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 1259 ms
+2022-05-10 13:30:59,305 INFO  HikariDataSource:110 - [] HikariPool-2 - Starting...
+2022-05-10 13:30:59,308 INFO  HikariDataSource:123 - [] HikariPool-2 - Start completed.
+2022-05-10 13:30:59,309 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1c2c9176-f297-4578-b238-5233b4091f79'
+2022-05-10 13:30:59,376 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:30:59,399 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:30:59,414 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:30:59,446 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:30:59,447 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:30:59,847 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:30:59,860 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:3, serverValue:3}] to localhost:27017
+2022-05-10 13:30:59,863 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1886800}
+2022-05-10 13:30:59,889 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:30:59,921 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:4, serverValue:4}] to localhost:27017
+2022-05-10 13:31:00,156 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:31:00,390 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:31:00,393 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:31:00,394 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:31:00,400 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:31:00,401 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:31:00,404 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:31:00,534 INFO  StartupInfoLogger:61 - [] Started App in 2.681 seconds (JVM running for 294.735)
+2022-05-10 13:31:00,537 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:31:25,345 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10 13:31:25,346 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-05-10 13:31:25,351 INFO  FrameworkServlet:547 - [] Completed initialization in 4 ms
+2022-05-10 13:31:54,152 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:4, serverValue:4}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:31:54,153 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:31:54,154 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:31:54,155 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:31:54,361 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:31:54,362 INFO  HikariDataSource:350 - [] HikariPool-2 - Shutdown initiated...
+2022-05-10 13:31:54,370 INFO  HikariDataSource:352 - [] HikariPool-2 - Shutdown completed.
+2022-05-10 13:31:54,880 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:31:54,881 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:31:55,666 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:31:55,666 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:31:55,702 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:31:55,707 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:31:55,710 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:31:55,714 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:31:55,717 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:31:55,718 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 51ms. Found 0 JPA repository interfaces.
+2022-05-10 13:31:55,730 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:31:55,731 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:31:55,772 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 40ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:31:56,040 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:31:56,041 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:31:56,041 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:31:56,062 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:31:56,063 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 1176 ms
+2022-05-10 13:31:56,091 INFO  HikariDataSource:110 - [] HikariPool-3 - Starting...
+2022-05-10 13:31:56,094 INFO  HikariDataSource:123 - [] HikariPool-3 - Start completed.
+2022-05-10 13:31:56,095 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c55caf44-4bf1-4eaa-a03a-8f82e7430bbf'
+2022-05-10 13:31:56,147 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:31:56,167 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:31:56,180 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:31:56,216 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:31:56,221 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:31:56,651 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:31:56,668 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:5, serverValue:5}] to localhost:27017
+2022-05-10 13:31:56,670 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1967500}
+2022-05-10 13:31:56,686 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:31:56,725 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:6, serverValue:6}] to localhost:27017
+2022-05-10 13:31:56,902 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:31:57,108 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:31:57,110 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:31:57,126 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:31:57,131 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:31:57,132 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:31:57,133 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:31:57,250 INFO  StartupInfoLogger:61 - [] Started App in 2.412 seconds (JVM running for 351.451)
+2022-05-10 13:31:57,252 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:32:02,346 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10 13:32:02,347 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-05-10 13:32:02,351 INFO  FrameworkServlet:547 - [] Completed initialization in 4 ms
+2022-05-10 13:36:00,069 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:6, serverValue:6}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:36:00,071 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:36:00,072 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:36:00,073 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:36:00,283 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:36:00,284 INFO  HikariDataSource:350 - [] HikariPool-3 - Shutdown initiated...
+2022-05-10 13:36:00,287 INFO  HikariDataSource:352 - [] HikariPool-3 - Shutdown completed.
+2022-05-10 13:36:00,690 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:36:00,691 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:36:01,627 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:36:01,628 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:36:01,658 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:36:01,663 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:36:01,668 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:36:01,674 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:36:01,680 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:36:01,683 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 54ms. Found 0 JPA repository interfaces.
+2022-05-10 13:36:01,698 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:36:01,699 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:36:01,746 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 46ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:36:02,068 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:36:02,069 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:36:02,069 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:36:02,094 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:36:02,095 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 1399 ms
+2022-05-10 13:36:02,141 INFO  HikariDataSource:110 - [] HikariPool-4 - Starting...
+2022-05-10 13:36:02,145 INFO  HikariDataSource:123 - [] HikariPool-4 - Start completed.
+2022-05-10 13:36:02,146 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:f24f9310-7dfc-43df-a9d5-b698f4e8f98a'
+2022-05-10 13:36:02,201 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:36:02,228 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:36:02,243 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:36:02,265 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:36:02,266 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:36:02,719 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:36:02,733 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:7, serverValue:7}] to localhost:27017
+2022-05-10 13:36:02,734 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=618800}
+2022-05-10 13:36:02,753 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:36:02,783 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:8, serverValue:8}] to localhost:27017
+2022-05-10 13:36:02,985 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:36:03,192 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:36:03,193 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:36:03,194 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:36:03,199 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:36:03,200 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:36:03,202 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:36:03,301 INFO  StartupInfoLogger:61 - [] Started App in 2.707 seconds (JVM running for 597.502)
+2022-05-10 13:36:03,304 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:36:14,545 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:8, serverValue:8}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:36:14,547 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:36:14,548 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:36:14,549 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:36:14,755 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:36:14,756 INFO  HikariDataSource:350 - [] HikariPool-4 - Shutdown initiated...
+2022-05-10 13:36:14,765 INFO  HikariDataSource:352 - [] HikariPool-4 - Shutdown completed.
+2022-05-10 13:36:15,211 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:36:15,212 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:36:15,886 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:36:15,886 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:36:15,913 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:36:15,917 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:36:15,920 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:36:15,925 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:36:15,930 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:36:15,931 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 44ms. Found 0 JPA repository interfaces.
+2022-05-10 13:36:15,948 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:36:15,948 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:36:15,982 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 34ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:36:16,225 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:36:16,226 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:36:16,227 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:36:16,247 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:36:16,248 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 1030 ms
+2022-05-10 13:36:16,274 INFO  HikariDataSource:110 - [] HikariPool-5 - Starting...
+2022-05-10 13:36:16,278 INFO  HikariDataSource:123 - [] HikariPool-5 - Start completed.
+2022-05-10 13:36:16,278 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1d2fa1b9-32ee-49c5-ad06-ce533fe1c0f2'
+2022-05-10 13:36:16,319 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:36:16,337 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:36:16,346 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:36:16,366 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:36:16,366 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:36:16,807 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:36:16,821 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:9, serverValue:9}] to localhost:27017
+2022-05-10 13:36:16,823 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1234900}
+2022-05-10 13:36:16,840 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:36:16,875 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:10, serverValue:10}] to localhost:27017
+2022-05-10 13:36:17,057 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:36:17,253 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:36:17,255 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:36:17,256 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:36:17,262 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:36:17,263 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:36:17,264 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:36:17,363 INFO  StartupInfoLogger:61 - [] Started App in 2.189 seconds (JVM running for 611.564)
+2022-05-10 13:36:17,367 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:37:16,172 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:10, serverValue:10}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:37:16,174 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:37:16,176 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:37:16,178 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:37:16,387 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:37:16,388 INFO  HikariDataSource:350 - [] HikariPool-5 - Shutdown initiated...
+2022-05-10 13:37:16,395 INFO  HikariDataSource:352 - [] HikariPool-5 - Shutdown completed.
+2022-05-10 13:37:16,823 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:37:16,824 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:37:17,436 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:37:17,437 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:37:17,456 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:37:17,459 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:37:17,462 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:37:17,466 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:37:17,470 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:37:17,471 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 33ms. Found 0 JPA repository interfaces.
+2022-05-10 13:37:17,480 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:37:17,481 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:37:17,513 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 32ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:37:17,766 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:37:17,767 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:37:17,768 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:37:17,787 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:37:17,787 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 958 ms
+2022-05-10 13:37:17,804 INFO  HikariDataSource:110 - [] HikariPool-6 - Starting...
+2022-05-10 13:37:17,808 INFO  HikariDataSource:123 - [] HikariPool-6 - Start completed.
+2022-05-10 13:37:17,808 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:a08b50e9-8a15-40b7-aeb6-164b270fe239'
+2022-05-10 13:37:17,848 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:37:17,871 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:37:17,881 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:37:17,894 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:37:17,895 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:37:18,284 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:37:18,289 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:11, serverValue:11}] to localhost:27017
+2022-05-10 13:37:18,290 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=684800}
+2022-05-10 13:37:18,312 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:37:18,336 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:12, serverValue:12}] to localhost:27017
+2022-05-10 13:37:18,489 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:37:18,682 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:37:18,683 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:37:18,684 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:37:18,690 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:37:18,691 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:37:18,693 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:37:18,781 INFO  StartupInfoLogger:61 - [] Started App in 1.994 seconds (JVM running for 672.983)
+2022-05-10 13:37:18,784 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:37:37,529 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:12, serverValue:12}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:37:37,531 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:37:37,533 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:37:37,535 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:37:37,747 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:37:37,747 INFO  HikariDataSource:350 - [] HikariPool-6 - Shutdown initiated...
+2022-05-10 13:37:37,756 INFO  HikariDataSource:352 - [] HikariPool-6 - Shutdown completed.
+2022-05-10 13:37:38,275 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:37:38,276 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:37:38,865 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:37:38,865 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:37:38,893 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:37:38,898 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:37:38,902 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:37:38,908 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:37:38,913 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:37:38,914 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 48ms. Found 0 JPA repository interfaces.
+2022-05-10 13:37:38,929 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:37:38,929 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:37:38,974 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 44ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:37:39,214 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:37:39,217 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:37:39,218 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:37:39,244 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:37:39,244 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 964 ms
+2022-05-10 13:37:39,269 INFO  HikariDataSource:110 - [] HikariPool-7 - Starting...
+2022-05-10 13:37:39,273 INFO  HikariDataSource:123 - [] HikariPool-7 - Start completed.
+2022-05-10 13:37:39,274 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e82bd799-b32e-4c27-a18a-8596cb222576'
+2022-05-10 13:37:39,319 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:37:39,334 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:37:39,345 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:37:39,367 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:37:39,367 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:37:39,852 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:37:39,859 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:13, serverValue:13}] to localhost:27017
+2022-05-10 13:37:39,861 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1282900}
+2022-05-10 13:37:39,886 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:37:39,913 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:14, serverValue:14}] to localhost:27017
+2022-05-10 13:37:40,083 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:37:40,293 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:37:40,294 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:37:40,296 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:37:40,301 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:37:40,303 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:37:40,305 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:37:40,389 INFO  StartupInfoLogger:61 - [] Started App in 2.16 seconds (JVM running for 694.591)
+2022-05-10 13:37:40,391 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:37:57,762 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10 13:37:57,763 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-05-10 13:37:57,767 INFO  FrameworkServlet:547 - [] Completed initialization in 3 ms
+2022-05-10 13:47:25,512 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:14, serverValue:14}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:47:25,514 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:47:25,515 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:47:25,516 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:47:25,729 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:47:25,731 INFO  HikariDataSource:350 - [] HikariPool-7 - Shutdown initiated...
+2022-05-10 13:47:25,740 INFO  HikariDataSource:352 - [] HikariPool-7 - Shutdown completed.
+2022-05-10 13:47:26,185 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:47:26,186 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:47:26,834 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:47:26,834 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:47:26,858 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:47:26,863 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:47:26,868 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:47:26,874 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:47:26,879 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:47:26,881 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 45ms. Found 0 JPA repository interfaces.
+2022-05-10 13:47:26,895 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:47:26,896 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:47:26,928 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 31ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:47:27,192 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:47:27,194 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:47:27,195 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:47:27,213 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:47:27,213 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 1022 ms
+2022-05-10 13:47:27,238 INFO  HikariDataSource:110 - [] HikariPool-8 - Starting...
+2022-05-10 13:47:27,242 INFO  HikariDataSource:123 - [] HikariPool-8 - Start completed.
+2022-05-10 13:47:27,242 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c1f42f5f-a344-4af3-8143-8196eea338ec'
+2022-05-10 13:47:27,287 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:47:27,305 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:47:27,316 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:47:27,336 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:47:27,337 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:47:27,706 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:47:27,712 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:15, serverValue:15}] to localhost:27017
+2022-05-10 13:47:27,712 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=611200}
+2022-05-10 13:47:27,740 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:47:27,758 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:16, serverValue:16}] to localhost:27017
+2022-05-10 13:47:27,930 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:47:28,114 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:47:28,115 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:47:28,118 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:47:28,123 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:47:28,124 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:47:28,126 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:47:28,206 INFO  StartupInfoLogger:61 - [] Started App in 2.073 seconds (JVM running for 1282.407)
+2022-05-10 13:47:28,208 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:47:36,408 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:16, serverValue:16}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:47:36,409 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:47:36,410 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:47:36,410 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:47:36,617 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:47:36,619 INFO  HikariDataSource:350 - [] HikariPool-8 - Shutdown initiated...
+2022-05-10 13:47:36,630 INFO  HikariDataSource:352 - [] HikariPool-8 - Shutdown completed.
+2022-05-10 13:47:37,043 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:47:37,043 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:47:37,646 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:47:37,646 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:47:37,669 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:47:37,672 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:47:37,676 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:47:37,680 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:47:37,683 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:47:37,684 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 36ms. Found 0 JPA repository interfaces.
+2022-05-10 13:47:37,693 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:47:37,693 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:47:37,722 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 29ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:47:37,907 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:47:37,908 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:47:37,908 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:47:37,924 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:47:37,924 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 878 ms
+2022-05-10 13:47:37,942 INFO  HikariDataSource:110 - [] HikariPool-9 - Starting...
+2022-05-10 13:47:37,946 INFO  HikariDataSource:123 - [] HikariPool-9 - Start completed.
+2022-05-10 13:47:37,946 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:9bd4dde5-cf6e-4524-9ce3-0065ab133e65'
+2022-05-10 13:47:37,977 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:47:37,989 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:47:37,998 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:47:38,020 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:47:38,021 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:47:38,423 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:47:38,427 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:17, serverValue:17}] to localhost:27017
+2022-05-10 13:47:38,428 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=614900}
+2022-05-10 13:47:38,449 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:47:38,475 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:18, serverValue:18}] to localhost:27017
+2022-05-10 13:47:38,638 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:47:38,883 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:47:38,884 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:47:38,886 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:47:38,890 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:47:38,891 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:47:38,893 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:47:38,987 INFO  StartupInfoLogger:61 - [] Started App in 1.973 seconds (JVM running for 1293.188)
+2022-05-10 13:47:38,989 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:52:13,652 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:18, serverValue:18}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:52:13,654 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:52:13,655 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:52:13,656 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:52:13,863 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:52:13,864 INFO  HikariDataSource:350 - [] HikariPool-9 - Shutdown initiated...
+2022-05-10 13:52:13,898 INFO  HikariDataSource:352 - [] HikariPool-9 - Shutdown completed.
+2022-05-10 13:52:14,328 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:52:14,329 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:52:14,817 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:52:14,818 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:52:14,838 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:52:14,841 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:52:14,844 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:52:14,848 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:52:14,851 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:52:14,852 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 33ms. Found 0 JPA repository interfaces.
+2022-05-10 13:52:14,861 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:52:14,861 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:52:14,894 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 33ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:52:15,152 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:52:15,156 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:52:15,156 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:52:15,178 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:52:15,178 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 846 ms
+2022-05-10 13:52:15,202 INFO  HikariDataSource:110 - [] HikariPool-10 - Starting...
+2022-05-10 13:52:15,206 INFO  HikariDataSource:123 - [] HikariPool-10 - Start completed.
+2022-05-10 13:52:15,207 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:0228685d-9081-4924-83b7-0acf280918ec'
+2022-05-10 13:52:15,244 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:52:15,258 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:52:15,269 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:52:15,292 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:52:15,292 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:52:15,667 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:52:15,672 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:19, serverValue:19}] to localhost:27017
+2022-05-10 13:52:15,673 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=572400}
+2022-05-10 13:52:15,694 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:52:15,728 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:20, serverValue:20}] to localhost:27017
+2022-05-10 13:52:15,905 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:52:16,070 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:52:16,073 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:52:16,074 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:52:16,079 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:52:16,080 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:52:16,082 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:52:16,162 INFO  StartupInfoLogger:61 - [] Started App in 1.868 seconds (JVM running for 1570.364)
+2022-05-10 13:52:16,164 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:52:21,037 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:20, serverValue:20}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:52:21,038 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:52:21,039 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:52:21,040 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:52:21,255 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:52:21,256 INFO  HikariDataSource:350 - [] HikariPool-10 - Shutdown initiated...
+2022-05-10 13:52:21,274 INFO  HikariDataSource:352 - [] HikariPool-10 - Shutdown completed.
+2022-05-10 13:52:21,681 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:52:21,682 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:52:22,263 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:52:22,263 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:52:22,289 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:52:22,292 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:52:22,295 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:52:22,299 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:52:22,302 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:52:22,303 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 39ms. Found 0 JPA repository interfaces.
+2022-05-10 13:52:22,311 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:52:22,312 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:52:22,337 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 25ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:52:22,553 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:52:22,554 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:52:22,555 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:52:22,576 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:52:22,576 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 891 ms
+2022-05-10 13:52:22,603 INFO  HikariDataSource:110 - [] HikariPool-11 - Starting...
+2022-05-10 13:52:22,624 INFO  HikariDataSource:123 - [] HikariPool-11 - Start completed.
+2022-05-10 13:52:22,624 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:9b25e50f-79f7-4339-b607-2c93e541b45f'
+2022-05-10 13:52:22,661 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:52:22,675 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:52:22,685 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:52:22,705 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:52:22,706 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:52:23,300 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:52:23,317 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:21, serverValue:21}] to localhost:27017
+2022-05-10 13:52:23,319 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1177800}
+2022-05-10 13:52:23,334 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:52:23,363 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:22, serverValue:22}] to localhost:27017
+2022-05-10 13:52:23,529 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:52:23,728 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:52:23,729 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:52:23,730 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:52:23,735 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:52:23,736 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:52:23,738 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:52:23,822 INFO  StartupInfoLogger:61 - [] Started App in 2.172 seconds (JVM running for 1578.023)
+2022-05-10 13:52:23,824 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:54:35,493 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:22, serverValue:22}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:54:35,494 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:54:35,495 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:54:35,496 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:54:35,711 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:54:35,712 INFO  HikariDataSource:350 - [] HikariPool-11 - Shutdown initiated...
+2022-05-10 13:54:35,722 INFO  HikariDataSource:352 - [] HikariPool-11 - Shutdown completed.
+2022-05-10 13:54:36,235 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:54:36,236 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:54:36,709 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:54:36,710 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:54:36,750 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:54:36,755 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:54:36,760 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:54:36,765 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:54:36,771 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:54:36,772 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 59ms. Found 0 JPA repository interfaces.
+2022-05-10 13:54:36,783 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:54:36,783 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:54:36,860 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 75ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:54:37,146 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:54:37,147 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:54:37,148 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:54:37,166 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:54:37,166 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 927 ms
+2022-05-10 13:54:37,187 INFO  HikariDataSource:110 - [] HikariPool-12 - Starting...
+2022-05-10 13:54:37,191 INFO  HikariDataSource:123 - [] HikariPool-12 - Start completed.
+2022-05-10 13:54:37,192 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ffb3a1a9-70e1-4c4a-a1c0-b29013cab2f9'
+2022-05-10 13:54:37,236 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:54:37,248 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:54:37,260 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:54:37,281 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:54:37,282 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:54:37,813 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:54:37,830 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:23, serverValue:42}] to localhost:27017
+2022-05-10 13:54:37,832 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1192400}
+2022-05-10 13:54:37,858 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:54:37,877 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:24, serverValue:43}] to localhost:27017
+2022-05-10 13:54:38,404 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:54:38,599 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:54:38,600 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:54:38,601 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:54:38,608 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:54:38,609 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:54:38,613 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:54:38,689 INFO  StartupInfoLogger:61 - [] Started App in 2.484 seconds (JVM running for 1712.891)
+2022-05-10 13:54:38,691 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:54:49,679 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10 13:54:49,679 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-05-10 13:54:49,684 INFO  FrameworkServlet:547 - [] Completed initialization in 5 ms
+2022-05-10 13:54:49,850 INFO  OpportunityServiceImplNew:72 - [] Entred Into Saving Opportunity
+2022-05-10 13:56:22,723 INFO  OpportunityServiceImplNew:72 - [] Entred Into Saving Opportunity
+2022-05-10 13:58:39,579 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:24, serverValue:43}] to localhost:27017 because the pool has been closed.
+2022-05-10 13:58:39,580 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:58:39,581 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 13:58:39,582 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:58:39,797 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 13:58:39,799 INFO  HikariDataSource:350 - [] HikariPool-12 - Shutdown initiated...
+2022-05-10 13:58:39,808 INFO  HikariDataSource:352 - [] HikariPool-12 - Shutdown completed.
+2022-05-10 13:58:40,371 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 13:58:40,372 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 13:58:40,969 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:58:40,969 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 13:58:41,155 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:58:41,166 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:58:41,189 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:58:41,199 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:58:41,270 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 13:58:41,271 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 301ms. Found 0 JPA repository interfaces.
+2022-05-10 13:58:41,288 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:58:41,288 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 13:58:41,368 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 78ms. Found 5 MongoDB repository interfaces.
+2022-05-10 13:58:41,708 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 13:58:41,710 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 13:58:41,710 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 13:58:41,747 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 13:58:41,748 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 1373 ms
+2022-05-10 13:58:41,770 INFO  HikariDataSource:110 - [] HikariPool-13 - Starting...
+2022-05-10 13:58:41,773 INFO  HikariDataSource:123 - [] HikariPool-13 - Start completed.
+2022-05-10 13:58:41,774 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:0c59d822-8ebc-437e-ba90-9beceb78f433'
+2022-05-10 13:58:41,821 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 13:58:41,843 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 13:58:41,853 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 13:58:41,875 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 13:58:41,876 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 13:58:42,556 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 13:58:42,565 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:25, serverValue:53}] to localhost:27017
+2022-05-10 13:58:42,569 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3519500}
+2022-05-10 13:58:42,592 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 13:58:42,655 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:26, serverValue:54}] to localhost:27017
+2022-05-10 13:58:43,887 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 13:58:44,266 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 13:58:44,268 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 13:58:44,269 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 13:58:44,275 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 13:58:44,277 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 13:58:44,281 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 13:58:44,506 INFO  StartupInfoLogger:61 - [] Started App in 4.172 seconds (JVM running for 1958.707)
+2022-05-10 13:58:44,508 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 13:59:11,864 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10 13:59:11,865 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-05-10 13:59:11,868 INFO  FrameworkServlet:547 - [] Completed initialization in 3 ms
+2022-05-10 13:59:11,891 INFO  OpportunityServiceImplNew:72 - [] Entred Into Saving Opportunity
+2022-05-10 14:00:47,409 INFO  OpportunityServiceImplNew:72 - [] Entred Into Saving Opportunity
+2022-05-10 14:01:48,356 INFO  OpportunityServiceImplNew:72 - [] Entred Into Saving Opportunity
+2022-05-10 14:22:31,785 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:26, serverValue:54}] to localhost:27017 because the pool has been closed.
+2022-05-10 14:22:31,787 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:22:31,788 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 14:22:31,789 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:22:31,999 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 14:22:31,999 INFO  HikariDataSource:350 - [] HikariPool-13 - Shutdown initiated...
+2022-05-10 14:22:32,011 INFO  HikariDataSource:352 - [] HikariPool-13 - Shutdown completed.
+2022-05-10 14:22:32,477 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 14:22:32,478 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 14:22:32,958 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:22:32,958 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 14:22:32,982 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:22:32,986 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:22:32,991 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:22:32,995 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:22:32,998 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:22:32,999 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 40ms. Found 0 JPA repository interfaces.
+2022-05-10 14:22:33,011 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:22:33,012 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 14:22:33,041 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 29ms. Found 5 MongoDB repository interfaces.
+2022-05-10 14:22:33,260 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 14:22:33,261 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 14:22:33,261 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 14:22:33,278 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 14:22:33,278 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 798 ms
+2022-05-10 14:22:33,300 INFO  HikariDataSource:110 - [] HikariPool-14 - Starting...
+2022-05-10 14:22:33,314 INFO  HikariDataSource:123 - [] HikariPool-14 - Start completed.
+2022-05-10 14:22:33,315 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:37d31981-a855-4ece-81ec-cd016c277d6e'
+2022-05-10 14:22:33,363 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:22:33,384 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 14:22:33,396 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 14:22:33,410 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 14:22:33,411 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:22:33,792 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 14:22:33,796 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:27, serverValue:61}] to localhost:27017
+2022-05-10 14:22:33,797 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=493400}
+2022-05-10 14:22:33,819 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 14:22:33,840 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:28, serverValue:62}] to localhost:27017
+2022-05-10 14:22:34,012 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:22:34,228 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 14:22:34,229 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 14:22:34,230 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 14:22:34,233 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 14:22:34,234 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 14:22:34,235 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 14:22:34,424 INFO  StartupInfoLogger:61 - [] Started App in 1.98 seconds (JVM running for 3388.625)
+2022-05-10 14:22:34,428 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 14:24:46,978 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:28, serverValue:62}] to localhost:27017 because the pool has been closed.
+2022-05-10 14:24:46,979 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:24:46,981 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 14:24:46,981 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:24:47,193 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 14:24:47,194 INFO  HikariDataSource:350 - [] HikariPool-14 - Shutdown initiated...
+2022-05-10 14:24:47,202 INFO  HikariDataSource:352 - [] HikariPool-14 - Shutdown completed.
+2022-05-10 14:24:47,759 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 14:24:47,760 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 14:24:48,293 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:24:48,293 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 14:24:48,321 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:24:48,325 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:24:48,329 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:24:48,334 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:24:48,339 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:24:48,340 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 46ms. Found 0 JPA repository interfaces.
+2022-05-10 14:24:48,352 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:24:48,352 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 14:24:48,384 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 31ms. Found 5 MongoDB repository interfaces.
+2022-05-10 14:24:48,581 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 14:24:48,582 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 14:24:48,582 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 14:24:48,596 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 14:24:48,596 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 833 ms
+2022-05-10 14:24:48,616 INFO  HikariDataSource:110 - [] HikariPool-15 - Starting...
+2022-05-10 14:24:48,618 INFO  HikariDataSource:123 - [] HikariPool-15 - Start completed.
+2022-05-10 14:24:48,618 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:89e711eb-86c2-4891-b26e-8b8289aabdcc'
+2022-05-10 14:24:48,651 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:24:48,663 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 14:24:48,671 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 14:24:48,688 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 14:24:48,689 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:24:49,043 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 14:24:49,048 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:29, serverValue:63}] to localhost:27017
+2022-05-10 14:24:49,049 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=540200}
+2022-05-10 14:24:49,070 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 14:24:49,092 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:30, serverValue:64}] to localhost:27017
+2022-05-10 14:24:49,234 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:24:49,386 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 14:24:49,387 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 14:24:49,388 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 14:24:49,391 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 14:24:49,392 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 14:24:49,393 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 14:24:49,485 INFO  StartupInfoLogger:61 - [] Started App in 1.776 seconds (JVM running for 3523.687)
+2022-05-10 14:24:49,489 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 14:25:14,511 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:30, serverValue:64}] to localhost:27017 because the pool has been closed.
+2022-05-10 14:25:14,512 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:25:14,512 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 14:25:14,513 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:25:14,722 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 14:25:14,724 INFO  HikariDataSource:350 - [] HikariPool-15 - Shutdown initiated...
+2022-05-10 14:25:14,738 INFO  HikariDataSource:352 - [] HikariPool-15 - Shutdown completed.
+2022-05-10 14:25:15,125 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 14:25:15,127 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 14:25:15,910 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:25:15,910 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 14:25:15,936 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:25:15,940 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:25:15,944 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:25:15,949 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:25:15,953 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:25:15,954 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 43ms. Found 0 JPA repository interfaces.
+2022-05-10 14:25:15,964 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:25:15,964 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 14:25:15,987 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 23ms. Found 5 MongoDB repository interfaces.
+2022-05-10 14:25:16,213 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 14:25:16,215 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 14:25:16,216 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 14:25:16,243 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 14:25:16,244 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 1075 ms
+2022-05-10 14:25:16,270 INFO  HikariDataSource:110 - [] HikariPool-16 - Starting...
+2022-05-10 14:25:16,273 INFO  HikariDataSource:123 - [] HikariPool-16 - Start completed.
+2022-05-10 14:25:16,273 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:577e76ea-3ecd-44b9-89d3-86d9e9cd2b04'
+2022-05-10 14:25:16,316 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:25:16,335 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 14:25:16,349 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 14:25:16,367 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 14:25:16,368 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:25:16,759 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 14:25:16,763 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:31, serverValue:65}] to localhost:27017
+2022-05-10 14:25:16,764 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=488200}
+2022-05-10 14:25:16,789 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 14:25:16,810 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:32, serverValue:66}] to localhost:27017
+2022-05-10 14:25:16,993 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:25:17,222 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 14:25:17,224 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 14:25:17,225 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 14:25:17,230 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 14:25:17,231 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 14:25:17,233 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 14:25:17,319 INFO  StartupInfoLogger:61 - [] Started App in 2.236 seconds (JVM running for 3551.52)
+2022-05-10 14:25:17,322 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 14:26:13,485 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10 14:26:13,486 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-05-10 14:26:13,490 INFO  FrameworkServlet:547 - [] Completed initialization in 3 ms
+2022-05-10 14:26:13,518 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:26:55,807 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:29:28,814 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:30:09,632 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:30:25,291 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:31:00,218 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:33:58,208 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:32, serverValue:66}] to localhost:27017 because the pool has been closed.
+2022-05-10 14:33:58,209 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:33:58,211 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 14:33:58,212 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:33:58,540 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 14:33:58,541 INFO  HikariDataSource:350 - [] HikariPool-16 - Shutdown initiated...
+2022-05-10 14:33:58,552 INFO  HikariDataSource:352 - [] HikariPool-16 - Shutdown completed.
+2022-05-10 14:33:59,117 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 14:33:59,118 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 14:33:59,612 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:33:59,612 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 14:33:59,636 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:33:59,639 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:33:59,642 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:33:59,647 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:33:59,651 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:33:59,652 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 40ms. Found 0 JPA repository interfaces.
+2022-05-10 14:33:59,659 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:33:59,660 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 14:33:59,692 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 31ms. Found 5 MongoDB repository interfaces.
+2022-05-10 14:33:59,940 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 14:33:59,941 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 14:33:59,942 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 14:33:59,956 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 14:33:59,956 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 835 ms
+2022-05-10 14:33:59,971 INFO  HikariDataSource:110 - [] HikariPool-17 - Starting...
+2022-05-10 14:33:59,973 INFO  HikariDataSource:123 - [] HikariPool-17 - Start completed.
+2022-05-10 14:33:59,974 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:01a4e120-971a-4892-9ca3-eab41061260a'
+2022-05-10 14:34:00,022 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:34:00,039 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 14:34:00,049 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 14:34:00,070 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 14:34:00,071 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:34:00,518 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 14:34:00,523 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:33, serverValue:69}] to localhost:27017
+2022-05-10 14:34:00,524 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=555600}
+2022-05-10 14:34:00,555 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 14:34:00,571 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:34, serverValue:70}] to localhost:27017
+2022-05-10 14:34:00,713 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:34:00,904 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 14:34:00,905 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 14:34:00,907 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 14:34:00,910 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 14:34:00,911 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 14:34:00,913 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 14:34:00,988 INFO  StartupInfoLogger:61 - [] Started App in 1.91 seconds (JVM running for 4075.182)
+2022-05-10 14:34:00,989 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 14:36:12,272 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:34, serverValue:70}] to localhost:27017 because the pool has been closed.
+2022-05-10 14:36:12,274 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:36:12,274 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 14:36:12,275 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:36:12,484 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 14:36:12,484 INFO  HikariDataSource:350 - [] HikariPool-17 - Shutdown initiated...
+2022-05-10 14:36:12,488 INFO  HikariDataSource:352 - [] HikariPool-17 - Shutdown completed.
+2022-05-10 14:36:12,759 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 14:36:12,760 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 14:36:13,239 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:36:13,239 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 14:36:13,262 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:36:13,265 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:36:13,268 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:36:13,272 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:36:13,275 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:36:13,276 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 36ms. Found 0 JPA repository interfaces.
+2022-05-10 14:36:13,282 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:36:13,282 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 14:36:13,309 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 26ms. Found 5 MongoDB repository interfaces.
+2022-05-10 14:36:13,593 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 14:36:13,595 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 14:36:13,596 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 14:36:13,677 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 14:36:13,677 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 915 ms
+2022-05-10 14:36:13,704 INFO  HikariDataSource:110 - [] HikariPool-18 - Starting...
+2022-05-10 14:36:13,717 INFO  HikariDataSource:123 - [] HikariPool-18 - Start completed.
+2022-05-10 14:36:13,718 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:f5341688-28fb-4516-96d0-36daea2e4fc8'
+2022-05-10 14:36:13,839 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:36:13,878 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 14:36:13,917 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 14:36:13,931 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 14:36:13,931 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:36:14,434 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 14:36:14,439 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:35, serverValue:71}] to localhost:27017
+2022-05-10 14:36:14,447 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7899500}
+2022-05-10 14:36:14,470 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 14:36:14,500 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:36, serverValue:72}] to localhost:27017
+2022-05-10 14:36:14,679 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:36:14,888 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 14:36:14,890 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 14:36:14,894 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 14:36:14,898 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 14:36:14,899 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 14:36:14,900 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 14:36:14,974 INFO  StartupInfoLogger:61 - [] Started App in 2.248 seconds (JVM running for 4209.175)
+2022-05-10 14:36:14,977 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 14:36:33,055 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:36, serverValue:72}] to localhost:27017 because the pool has been closed.
+2022-05-10 14:36:33,056 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:36:33,056 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 14:36:33,057 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:36:33,264 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 14:36:33,264 INFO  HikariDataSource:350 - [] HikariPool-18 - Shutdown initiated...
+2022-05-10 14:36:33,268 INFO  HikariDataSource:352 - [] HikariPool-18 - Shutdown completed.
+2022-05-10 14:36:33,531 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 14:36:33,531 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 14:36:33,926 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:36:33,926 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 14:36:33,944 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:36:33,948 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:36:33,952 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:36:33,954 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:36:33,958 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:36:33,959 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 32ms. Found 0 JPA repository interfaces.
+2022-05-10 14:36:33,965 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:36:33,965 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 14:36:33,986 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 20ms. Found 5 MongoDB repository interfaces.
+2022-05-10 14:36:34,140 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 14:36:34,141 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 14:36:34,141 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 14:36:34,157 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 14:36:34,157 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 622 ms
+2022-05-10 14:36:34,171 INFO  HikariDataSource:110 - [] HikariPool-19 - Starting...
+2022-05-10 14:36:34,173 INFO  HikariDataSource:123 - [] HikariPool-19 - Start completed.
+2022-05-10 14:36:34,173 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d664d853-78cb-4d4a-a87d-071a50b1154f'
+2022-05-10 14:36:34,203 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:36:34,215 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 14:36:34,222 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 14:36:34,234 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 14:36:34,235 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:36:34,574 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 14:36:34,577 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:37, serverValue:73}] to localhost:27017
+2022-05-10 14:36:34,578 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=504300}
+2022-05-10 14:36:34,596 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 14:36:34,615 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:38, serverValue:74}] to localhost:27017
+2022-05-10 14:36:34,728 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:36:34,894 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 14:36:34,895 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 14:36:34,895 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 14:36:34,898 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 14:36:34,899 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 14:36:34,900 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 14:36:34,954 INFO  StartupInfoLogger:61 - [] Started App in 1.456 seconds (JVM running for 4229.156)
+2022-05-10 14:36:34,956 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 14:39:03,168 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10 14:39:03,168 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-05-10 14:39:03,179 INFO  FrameworkServlet:547 - [] Completed initialization in 10 ms
+2022-05-10 14:39:03,201 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:39:21,287 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:39:38,921 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:39:41,743 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:39:42,829 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:39:43,920 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:39:44,910 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:42:05,573 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:43:02,953 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:43:17,656 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:43:33,005 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:44:04,195 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:44:33,986 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:45:32,953 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:38, serverValue:74}] to localhost:27017 because the pool has been closed.
+2022-05-10 14:45:32,954 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:45:32,955 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 14:45:32,956 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:45:33,158 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 14:45:33,158 INFO  HikariDataSource:350 - [] HikariPool-19 - Shutdown initiated...
+2022-05-10 14:45:33,162 INFO  HikariDataSource:352 - [] HikariPool-19 - Shutdown completed.
+2022-05-10 14:45:33,388 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 14:45:33,388 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 14:45:33,797 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:45:33,797 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 14:45:33,813 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:45:33,815 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:45:33,818 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:45:33,821 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:45:33,824 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:45:33,824 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 26ms. Found 0 JPA repository interfaces.
+2022-05-10 14:45:33,830 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:45:33,831 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 14:45:33,855 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 24ms. Found 5 MongoDB repository interfaces.
+2022-05-10 14:45:34,055 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 14:45:34,056 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 14:45:34,056 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 14:45:34,074 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 14:45:34,074 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 683 ms
+2022-05-10 14:45:34,094 INFO  HikariDataSource:110 - [] HikariPool-20 - Starting...
+2022-05-10 14:45:34,097 INFO  HikariDataSource:123 - [] HikariPool-20 - Start completed.
+2022-05-10 14:45:34,098 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5dcb1e62-6eaa-4bd8-ae0f-96abd1c2ef58'
+2022-05-10 14:45:34,137 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:45:34,152 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 14:45:34,167 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 14:45:34,182 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 14:45:34,182 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:45:34,516 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 14:45:34,520 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:39, serverValue:86}] to localhost:27017
+2022-05-10 14:45:34,521 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=428500}
+2022-05-10 14:45:34,535 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 14:45:34,549 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:40, serverValue:87}] to localhost:27017
+2022-05-10 14:45:35,239 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:45:35,350 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 14:45:35,351 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 14:45:35,352 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 14:45:35,354 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 14:45:35,355 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 14:45:35,356 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 14:45:35,448 INFO  StartupInfoLogger:61 - [] Started App in 2.101 seconds (JVM running for 4769.65)
+2022-05-10 14:45:35,450 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 14:45:43,279 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:40, serverValue:87}] to localhost:27017 because the pool has been closed.
+2022-05-10 14:45:43,281 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:45:43,281 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 14:45:43,282 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:45:43,488 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 14:45:43,488 INFO  HikariDataSource:350 - [] HikariPool-20 - Shutdown initiated...
+2022-05-10 14:45:43,490 INFO  HikariDataSource:352 - [] HikariPool-20 - Shutdown completed.
+2022-05-10 14:45:43,702 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 14:45:43,702 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 14:45:44,077 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:45:44,078 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 14:45:44,095 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:45:44,097 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:45:44,100 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:45:44,103 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:45:44,106 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 14:45:44,106 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 28ms. Found 0 JPA repository interfaces.
+2022-05-10 14:45:44,111 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 14:45:44,112 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 14:45:44,133 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 21ms. Found 5 MongoDB repository interfaces.
+2022-05-10 14:45:44,306 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 14:45:44,307 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 14:45:44,307 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 14:45:44,322 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 14:45:44,322 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 618 ms
+2022-05-10 14:45:44,337 INFO  HikariDataSource:110 - [] HikariPool-21 - Starting...
+2022-05-10 14:45:44,339 INFO  HikariDataSource:123 - [] HikariPool-21 - Start completed.
+2022-05-10 14:45:44,340 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:708f9478-f3af-4ad4-8205-26a344c08f67'
+2022-05-10 14:45:44,367 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 14:45:44,377 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 14:45:44,385 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 14:45:44,397 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 14:45:44,397 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 14:45:44,717 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 14:45:44,720 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:41, serverValue:88}] to localhost:27017
+2022-05-10 14:45:44,721 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=426100}
+2022-05-10 14:45:44,739 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 14:45:44,753 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:42, serverValue:89}] to localhost:27017
+2022-05-10 14:45:44,844 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:45:44,958 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 14:45:44,959 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 14:45:44,960 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 14:45:44,962 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 14:45:44,963 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 14:45:44,964 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 14:45:45,026 INFO  StartupInfoLogger:61 - [] Started App in 1.352 seconds (JVM running for 4779.227)
+2022-05-10 14:45:45,028 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 14:46:41,616 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10 14:46:41,616 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-05-10 14:46:41,619 INFO  FrameworkServlet:547 - [] Completed initialization in 2 ms
+2022-05-10 14:46:41,637 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 14:47:09,992 INFO  OpportunityServiceImplNew:74 - [] Entred Into Saving Opportunity
+2022-05-10 15:10:15,256 INFO  SLF4JLogger:71 - [] Closed connection [connectionId{localValue:42, serverValue:89}] to localhost:27017 because the pool has been closed.
+2022-05-10 15:10:15,257 INFO  AbstractEntityManagerFactoryBean:598 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 15:10:15,257 INFO  SchemaDropperImpl$DelayedDropActionImpl:524 - [] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-10 15:10:15,258 INFO  ExecutorConfigurationSupport:218 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10 15:10:15,472 WARN  DisposableBeanAdapter:267 - [] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-10 15:10:15,472 INFO  HikariDataSource:350 - [] HikariPool-21 - Shutdown initiated...
+2022-05-10 15:10:15,475 INFO  HikariDataSource:352 - [] HikariPool-21 - Shutdown completed.
+2022-05-10 15:10:15,778 INFO  StartupInfoLogger:55 - [] Starting App on DESKTOP-IDN7NR1 with PID 9324 (C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB\target\classes started by khuddus in C:\Users\khuddus\Downloads\LTI-MongoDB (3)\LTI-MongoDB\LTI-MongoDB)
+2022-05-10 15:10:15,778 INFO  SpringApplication:651 - [] No active profile set, falling back to default profiles: default
+2022-05-10 15:10:16,731 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 15:10:16,731 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-05-10 15:10:16,761 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpeningsRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 15:10:16,762 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.OpportunityRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 15:10:16,765 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.opportunity.dao.StatusMangoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 15:10:16,768 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.RoleRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 15:10:16,772 INFO  RepositoryConfigurationExtensionSupport:348 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.lti.user.Dao.UserMongoRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-05-10 15:10:16,773 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 41ms. Found 0 JPA repository interfaces.
+2022-05-10 15:10:16,779 INFO  RepositoryConfigurationDelegate:249 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 15:10:16,779 INFO  RepositoryConfigurationDelegate:127 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 15:10:16,800 INFO  RepositoryConfigurationDelegate:187 - [] Finished Spring Data repository scanning in 20ms. Found 5 MongoDB repository interfaces.
+2022-05-10 15:10:17,154 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-05-10 15:10:17,155 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-05-10 15:10:17,155 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2022-05-10 15:10:17,171 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-05-10 15:10:17,171 INFO  ServletWebServerApplicationContext:284 - [] Root WebApplicationContext: initialization completed in 1390 ms
+2022-05-10 15:10:17,185 INFO  HikariDataSource:110 - [] HikariPool-22 - Starting...
+2022-05-10 15:10:17,188 INFO  HikariDataSource:123 - [] HikariPool-22 - Start completed.
+2022-05-10 15:10:17,189 INFO  H2ConsoleAutoConfiguration:74 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:aeec4b39-f991-4ae2-9bd8-c6e0c1d349bd'
+2022-05-10 15:10:17,224 INFO  ExecutorConfigurationSupport:181 - [] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10 15:10:17,235 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-10 15:10:17,241 INFO  Dialect:172 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-10 15:10:17,252 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 15:10:17,253 INFO  AbstractEntityManagerFactoryBean:416 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-10 15:10:17,573 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 15:10:17,590 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:43, serverValue:96}] to localhost:27017
+2022-05-10 15:10:17,591 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=428200}
+2022-05-10 15:10:17,597 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-05-10 15:10:17,607 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:44, serverValue:97}] to localhost:27017
+2022-05-10 15:10:18,271 WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 15:10:18,401 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-05-10 15:10:18,403 INFO  DeferredRepositoryInitializationListener:49 - [] Triggering deferred initialization of Spring Data repositories…
+2022-05-10 15:10:18,404 INFO  DeferredRepositoryInitializationListener:53 - [] Spring Data repositories initialized!
+2022-05-10 15:10:18,407 INFO  DocumentationPluginsBootstrapper:84 - [] Context refreshed
+2022-05-10 15:10:18,408 INFO  DocumentationPluginsBootstrapper:87 - [] Found 1 custom documentation plugin(s)
+2022-05-10 15:10:18,409 INFO  ApiListingReferenceScanner:44 - [] Scanning for api listing references
+2022-05-10 15:10:18,478 INFO  StartupInfoLogger:61 - [] Started App in 2.73 seconds (JVM running for 6254.462)
+2022-05-10 15:10:18,480 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
+2022-05-10 18:28:16,033 WARN  HikariPool$HouseKeeper:787 - [] HikariPool-22 - Thread starvation or clock leap detected (housekeeper delta=3h28s476ms115µs400ns).
+2022-05-10 18:43:19,810 WARN  HikariPool$HouseKeeper:787 - [] HikariPool-22 - Thread starvation or clock leap detected (housekeeper delta=15m21s546ms809µs300ns).
